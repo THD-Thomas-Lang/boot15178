@@ -1,0 +1,28 @@
+[( #{email.joboffer.new} )]
+
+[( #{email.company} )]
+[( ${company} )]
+
+[( #{email.jobtypes} )]
+[# th:each="jobtype : ${jobtypes}"]
+ - [( ${jobtype} )]
+[/]
+
+[( #{email.studycourses} )]
+[# th:each="studycourse : ${studycourses}"]
+ - [( ${studycourse} )]
+[/]
+
+[( #{email.contact} )]
+[( ${contact} )]
+
+[( #{email.description} )]
+[( ${description} )]
+
+[( #{email.directlinkText} )]
+
+[( #{email.directlink(${jobofferid})} )]
+
+
+
+

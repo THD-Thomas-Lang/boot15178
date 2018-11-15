@@ -1,0 +1,11 @@
+[( #{email.joboffer.expired} )]
+
+[( ${description} )]
+
+[( #{email.joboffer.expirationdate(${expirationDate})} )]
+
+[( #{email.directlink(${jobOfferId})} )]
+
+
+
+
